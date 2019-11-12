@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="DesktopTest">
+      <parameter name="platform" value="desktop"> </parameter>
+    <classes>
+      <class name="com.extentreport.practise.ExtentReportDemo.ExtentReportCreator"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="MobileTest">
+        <parameter name="platform" value="mobile"> </parameter>
+    <classes>
+      <class name="com.extentreport.practise.ExtentReportDemo.ExtentReportCreator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
